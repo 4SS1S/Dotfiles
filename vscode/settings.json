@@ -1,0 +1,218 @@
+{
+  "sync.gist": "330308ea45ba649b6f1a82a30db9fe4e",
+  "terminal.integrated.fontSize": 14,
+
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+
+  "polacode.backgroundColor": "#6633CC",
+
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 18,
+  "editor.fontFamily": "Fira Code",
+  "terminal.integrated.automationShell.osx": "/bin/zsh",
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": false,
+
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/node_modules": true
+  },
+
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv"
+  },
+
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+
+  "git.enableSmartCommit": true,
+  "liveshare.featureSet": "insiders",
+
+  "typescript.tsserver.log": "off",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "material-icon-theme.activeIconPack": "nest",
+  "screencastMode.onlyKeyboardShortcuts": true,
+
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes",
+    "protocols": "pipe"
+  },
+
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
+  },
+
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+
+  "workbench.colorTheme": "Dracula",
+  "window.menuBarVisibility": "toggle",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "tabnine.experimentalAutoImports": true,
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  "cSpell.language": "en,pt",
+  "editor.suggestSelection": "first",
+  "codesnap.backgroundColor": "transparent",
+  "codesnap.transparentBackground": true,
+  "codesnap.boxShadow": "0 0 0",
+  "liveServer.settings.donotVerifyTags": true,
+  "cSpell.userWords": [
+    "chakra",
+    "middlewares",
+    "prefetch",
+    "rocketseat",
+    "upsert",
+    "webmed"
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.productIconTheme": "fluent-icons",
+  "terminal.integrated.showExitAlert": false,
+
+  "splitHTMLAttributes.closingBracketOnNewLine": true,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": ""
+    }
+  ],
+  "editor.inlineSuggest.enabled": true,
+  "redhat.telemetry.enabled": true,
+
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)",
+    "tw\\..+`([^`]*)",
+    "tw\\(.*?\\).*?`([^`]*)"
+  ],
+  "workbench.editorAssociations": {
+    "*.hex": "hexEditor.hexedit",
+    "*.ini": "hexEditor.hexedit"
+  },
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path.mac": "/Users/user/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+    "vscode-kubernetes.kubectl-path.mac": "/Users/user/.vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.helm-path.mac": "/Users/user/.vs-kubernetes/tools/helm/darwin-amd64/helm"
+  },
+  "svg.preview.mode": "img",
+  "yaml.schemas": {
+    "file:///Users/user/.vscode/extensions/atlassian.atlascode-2.9.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.jira.jqlList": [
+    {
+      "id": "086ead9e-1179-4f40-bfa3-97af9fe2dbd3",
+      "enabled": true,
+      "name": "My lucianolorenz Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "8d79f736-21d4-4c9d-9489-fe2f13368701",
+      "monitor": true
+    }
+  ],
+  "atlascode.bitbucket.enabled": false,
+  "codestream.email": "desenvolvimento@webmedbr.com.br",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "git.autofetch": true,
+  "editor.autoIndent": "brackets",
+}
